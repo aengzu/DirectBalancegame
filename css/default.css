@@ -1,13 +1,22 @@
 /* 파일에 전체적으로 영향을 주는 css */
 
 
+@font-face {
+  font-family: 'Surround'; /*font 이름*/
+  font-style: 'normal'; /* font 스타일 정의 (기울임, 일반) */
+  font-weight: 400; /* font 굵기 정의 */
+  /* 브라우저&디바이스 환경에 따른 font 파일 위치 정의 */
+  src: url('../font/Cafe24Ssurround-v2.0.otf'); /* IE9 Compat Modes */
+}
+
 body {
-  background-image: url("../img/balloon_wallpaper.jpg");
+  background-image: url("../img/57621.jpg");
   background-size: cover;
  }
   
   * {
-    font-family: 'Hahmlet', serif;
+    font-family: 'Surround', serif;
+    color:#605f5f
   }
   
   p {
@@ -16,3 +25,50 @@ body {
  
 
  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:#000000;
+  background-color: #ffffff;
+  padding: 8px 12px;
+}
+
+.navbar__logo i {
+  color: white;
+  padding-left: 0;
+}
+a {
+
+  text-decoration: none;
+  font-family:'Surround';
+  color:#454545
+  
+}
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 30px;
+}
+
+.navbar__icons {
+  list-style: none;
+  display: flex;
+  color: white;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__icons li {
+  padding: 8px 12px;
+  margin: 0;
+}
+.navbar__menu li:hover {
+  background-color: white;
+  border-radius: 3px;
+}

@@ -133,6 +133,27 @@ const qnaList = [
       { answer: 'e. 치킨 별로..', kategory: ['치킨x'], type: []}, 
     ]
   },
+   {
+    q: '15. 옷 선물 좋다vs취향에 안맞을 수도 있으니 별로다. ',
+    a: [
+      { answer: 'a. 좋다.',  kategory: ['옷'], type: [] }, 
+      { answer: 'b. 별로...', kategory: ['옷x'], type: []}, 
+    ]
+  },
+   {
+    q: '16. 배송상품 vs 매장상품 ',
+    a: [
+      { answer: 'a. 배송상품',  kategory: ['배송'], type: [] }, 
+      { answer: 'b. 매장상품', kategory: ['매장'], type: []}, 
+    ]
+  },
+  {
+    q: '17. 치킨 vs 피자 ',
+    a: [
+      { answer: 'a. 치킨',  kategory: ['치킨'], type: [] }, 
+      { answer: 'b. 피자', kategory: ['피자'], type: []}, 
+    ]
+  },
 ]
 
 const infoList = [

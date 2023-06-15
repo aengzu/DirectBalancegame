@@ -4,7 +4,7 @@ function setShare() {
   var resultImg = document.querySelector('#resultImg')
   var resultAlt = resultImg.firstElementChild.alt;
 
-  const shareTitle = '성격 퍼스널 컬러 결과'
+  const shareTitle = '선물 취향 테스트 결과'
   const shareDes = infoList[resultAlt].name;
   const shareImgage = url + 'img/image-' + resultAlt + '.png';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
